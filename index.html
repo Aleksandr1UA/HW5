@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Content Product</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Pictures Block -->
+        <div class="img-block">
+            <div class="clearfix">
+                <div class="img-container">
+                    <a href="#">
+                        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone12purple-202109?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268265" alt="Iphone 12">
+                        <p>iPhone 12</p>
+                    </a>
+                </div>
+                <div class="img-container">
+                    <a href="#">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1646415838921" alt="Iphone SE">
+                    <p>iPhone SE</p>
+                    </a>
+                </div>
+                <div class="img-container">
+                    <a href="#">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267" alt="Iphone 13 Pro">
+                    <p>iPhone 13 Pro</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Form Block -->
+        <div class="form-block">
+            <form name="form" method="post" action="index.html">
+                <label for="email"></label>
+                <input type="email" placeholder=" example@gmal.com" name="email">
+                <label for="psw"></label>
+                <input type="password" placeholder=" password" name="psw">
+                <label>
+                    <input type="checkbox" name="remember"><i>remember me</i>
+                </label>
+                <button type="submit">Вход</button>
+            </form>
+        </div>
+        <div class="product-content clearfix">
+            <!--Filter Block -->
+            <div class="product-sort-block">
+                <div class="product-sort">
+                    <div tabindex="0">Сортировка &#128315</div>
+                        <ul>
+                            <li>Модель
+                                <ul>
+                                    <li>13 Pro Max</li>
+                                    <li>12 Pro Max</li>
+                                    <li>SE 2020</li>
+                                </ul>
+                            </li>
+                            <li>Объем памяти
+                                <ul>
+                                    <li>128Гб</li>
+                                    <li>256ГБ</li>
+                                    <li>1Тб</li>
+                                </ul>
+                            </li>
+                            <li>Цвет
+                                <ul>
+                                    <li>Sierra Blue</li>
+                                    <li>Graphite</li>
+                                    <li>Gold</li>
+                                    <li>Silver</li>
+                                    <li>Alpina Green</li>
+                                    <li>White</li>
+                                    <li>Starlight</li>
+                                    <li>Red</li>
+                                    <li>Midnight</li>
+                                    <li>Тихоокеанский синий</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+            <!--Product Block -->
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/985/275_170_1/apple_iphone_13_pro_max_1_sierra_blue.jpg">
+                </div>
+                <h3>Apple iPhone 13 Pro Max 128Гб (Sierra Blue)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>43 899</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/416/275_170_1/apple_iphone_13_pro_max_256_graphite.jpg">
+                </div>
+                <h3>Apple iPhone 13 Pro Max 256Гб (Graphite)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>47 299</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/e57/275_170_1/apple_iphone_13_pro_max_256_gold.jpg">
+                </div>
+                <h3>Apple iPhone 13 Pro Max 1Тб (Gold)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>57 399</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/d96/275_170_1/apple_iphone_13_pro_max_256_silver.jpg">
+                </div>
+                <h3>Apple iPhone 13 Pro Max 256Гб (Silver)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>46 999</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/122/275_170_1/apple_iphone_13_pro_max_256_gb_alpine_green.jpg" width="180px" height="170px">
+                </div>
+                <h3>Apple iPhone 13 Pro Max 256Гб (Alpina Green)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>47 299</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/7ea/275_170_1/apple_iphone_se_2020_g_256_gb_belyy.jpg" width="188px" height="170px">
+                </div>
+                <h3>Apple iPhone SE 2020 г. 256Гб (White)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>16 999</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/c50/275_170_1/apple_iphone_se_2022_g_128_gb_starlight.jpg" width="188px" height="170px">
+                </div>
+                <h3>Apple iPhone SE 2020 г. 128Гб (Starlight)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>17 749</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/837/275_170_1/apple_iphone_se_2022_g_256_gb_product_red.jpg" width="188px" height="170px">
+                </div>
+                <h3>Apple iPhone SE 2020 г. 256Гб (Red)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>21 299</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/fea/275_170_1/apple_iphone_se_2022_g_256_gb_midnight.jpg" width="188px" height="170px">
+                </div>
+                <h3>Apple iPhone SE 2020 г. 256Гб (Midnight)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>21 299</span> грн</p>
+            </div>
+            <div class="product" tabindex="0">
+                <img class="addtowish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDB3RCkvOVr3AwM0H1CGpuTKCFRxWDNdImxTbvlIbw8HfGHsTB-ikP0zxPJ3IU-TvJfU&usqp=CAU">
+                <img class="addtocard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAACGhobY2Njz8/M7OzsZGRn5+flKSkoXFxeqqqoJCQn8/PwFBQUSEhLt7e3k5ORYWFi6urrOzs4kJCTIyMjd3d0zMzMfHx9zc3MqKipFRUU2Njbi4uKysrKampp7e3tlZWVISEiioqLAwMBQUFCUlJSMjIxhYWFubm636UsIAAAEsklEQVR4nO2bbXOqMBCFpSBYIAJFUbGKWtT6///g7Z257GJeIEtSmLnj+aoNp5Bsnj3E2eyll6ZXnLqCCm+866e70n/ntd0fg7Guv3CkWlbxOAbOTG7A2brjGPAV13ec2zgGVDfAcS7jTMSl0sC2GMWAYg7+KPoYxUBeKh2cRjEwW+8j9iQwsEnGcZCswyfNGwPLfBwDvG5wD76mMeC+Nwayscrxs5LPxsDqMImB2RkWYj2NgWPUOLhPY6DYNgbmI2JBS8G+MeCPtCPyemsMsOM0BtawQz1GohJOCewP5UjVmFOcQTVeT2Jg9gXVuJrGgAugdp2mGnuwI6qwKD3e30x1q9Uz7NGNRXG4gWppoGiurPUfMP5J+rGapWkqVciRrpqvfEpuk7fvGpSkTGEgAFZ9l3jEzcJYS9UzuDffYKH4ISKLsZjKQA7V+FtciPiAjLVVGUg2zVfKVPgwfnSNSRF7UxmIv5vvyLDoYGsWbtXgHUI1lmFReir9wXrH1qNjt8WZvpdhkSxW0VRRQZHp2uu8X8OiAPZa59qFfCeYKJaxyIV7G3WOjFi0s4tFO7gBsiqLSgGL7DapOC7rho0WFlltUrH1XPUkINWvNKkJoIZz6nm0v4NF2HbJtrknIRZZbFKDK9yA/t4bschek5rDRqoRQSEWKbcMqlrb2Lx/bR1g17XWpBYwJNOY2S0sslWN77CySp15hU2qBIuGCMMXvaeKWHS2U41DmFV6O1wnFg2Qh7HsWau02G5ScX9bai5sxCIb2T1inhxyJEIsWlhYiAgC2pO6v0mlCBDH2WhPKYAHC9k9ggAh/qu7m1SSMPUgvI6yiEWtjpYQfeHuaYxFNa5BypoGgNLZPLqkC+O8clvZPfJVN4zzamX3ZtVYF8YFncG4ERZpw7ggS9m9Pozz6mlSNUWAcV52snsCjAuy0aSSYJyXjeyeBOO8LGT3MSwlHRgX/toci2gwLsg8uwe61oNxXsZNKrLtsBbLGIuoMC6oJ7vvk3eBG6AH44Ja2X1AV1yTYZwXRsP+ZUEXouDQYh6oz5mQNLzDvPcPriN9GOeVq8/6UDS8u2otZAMZnA1rNXUGMglcjxZe0hk12ImFFxQDi9A/5fP+K3SKXQ0jjrS6zg2UheaBd+AZaJpX4C+99NJL/4viJA+rr/pgUE3/DnGrPtwhTBq7u3LJGIu218EH/ovTZskcFvn7kGzBu+N5lSgbxFRBhQc+ogUxnvAeTyi0GRBWBqenIVak5irYcWfvN+R7EL9xNLeikFko4HhGfYi1cOZqr48mrXdc8BCJOZEnNlWEnDCUsDAp520HTCjtpBSzmZaIHf5OMoQ2n0v7IVpEEFwkQzi6Par8wBYpZfLEWeToZ74H6Zk5kgF5U6kbFKWyH3/QenxP2s/oLgPpX9NCe+k81o98ZWfmiK8tbpKfMekvJNkiJvbYhWQi68fVgXgDfeJ2FIuFgBKV5bx/dqeGDAdhIe4oWBFyh0fPdKapuX/iSmqT47BdC6LHkB67btcCllFjgjxrZiIrv4bljO4Zhljd6EN4691m6/tlFg6OOIL8NP8ZYrWoikE5VZwUbpGaRQzewXXTaX4x89JLffoDv0xKXtTvt3kAAAAASUVORK5CYII=">
+                <div class="img-container">
+                    <img src="https://www.istore.ua/upload/resize_cache/iblock/fde/275_170_1/apple_iphone_12_pro_max_128_gb_tikhookeanskiy_siniy.jpg" width="182px" height="170px">
+                </div>
+                <h3>Apple iPhone 12 Pro Max 128Гб (Тихоокеанский синий)</h3>
+                <div class="shadow-block">
+                    <div class="descript">
+                        <p>
+                            <a href="https://www.istore.ua/catalog/item/apple-iphone-13-pro-max-128-gb-sierra-blue/">Характеристики</a>
+                        </p>
+                    </div>
+                </div>
+                <p class="price"><span>45 999</span> грн</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
